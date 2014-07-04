@@ -2,4 +2,6 @@
 
 User manual for the server module of StarRiver, LED light control system by Sansitech.
 
-Contact: Pei Qing qingpei@sansitech.com
+Please contact qingpei@sansitech.com for more details.
+
+The English version is currently unavailable.
