@@ -60,3 +60,21 @@ StarRiver 采用 MySQL 或兼容 MySQL 的数据库系统（如 MariaDB）。下
    ![](img/db_init_11.png)
 10. 在左侧「Schemas」窗口内单击刷新按钮，看到名为 `led_control` 的数据库已经被成功建立。
    ![](img/db_init_12.png)
+
+对数据库服务器，还需进行一些配置，方法是修改 MySQL 数据存放路径（前文用 `C:\MySQL_Data` 为例）中的 `my.ini`。
+
+![](img/my_ini.png)
+
+在 `[mysqld]` （图中箭头所示）下增加如下内容：
+
+```
+event-scheduler=on
+lower_case_table_names=2
+
+collation-server=utf8_general_ci
+init-connect='SET collation_connection=utf8_unicode_ci'
+init-connect='SET NAMES utf8'
+skip-character-set-client-handshake
+```
+
+重启系统后（或重启 MySQL 服务后），新设置生效。
