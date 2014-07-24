@@ -78,3 +78,16 @@ skip-character-set-client-handshake
 ```
 
 重启系统后（或重启 MySQL 服务后），新设置生效。
+
+
+## 安装 StarRiver 服务器
+
+运行 `setup.exe` 即可，如需自定义安装路径，请在「目的地文件夹」步骤更改。
+
+![](img/setup.png)
+
+如您在数据库配置时，未使用本文档提供的默认密码，您还需更改配置文件，让 StarRiver 服务器能够顺利连接数据库。配置文件为安装路径下的 `config.ini`。
+
+![](img/config.png)
+
+您只需将默认密码（图中箭头所示）改为您此前设置的密码即可。
