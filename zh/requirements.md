@@ -1,6 +1,6 @@
 # 系统需求
 
-StarRiver通信程序以及数据库服务端的安装和运行需要如下环境。
+StarRiver服务器以及数据库服务端的安装和运行需要如下环境。
 
 ## 硬件
 
@@ -19,9 +19,9 @@ StarRiver通信程序以及数据库服务端的安装和运行需要如下环�
 
 - 最低配置
     * Windows Server 2003
-    * MySQL Server 5.5
+    * MySQL Server 5.5 (MariaDB 5.5)
 - 建议配置
-    * Windows Server 2008 或 Windows 7 以上版本
-    * MySQL Server 5.6+
+    * Windows Server 2008 以上版本或 Windows 7 以上版本
+    * MySQL Server 5.6+ (MariaDB 10.0+)
 
-> 注：通信程序作为 Windows 服务，允许 StarRiver 客户端远程启动、停止。这一功能 Windows XP 中不提供。
+> 注：StarRiver 服务器作为 Windows 服务，允许 StarRiver 客户端远程启动、停止。这一功能 Windows XP 中不提供。
