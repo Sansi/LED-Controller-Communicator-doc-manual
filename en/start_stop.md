@@ -2,7 +2,7 @@
 
 StarRiver runs in background as a service. You could manually start or stop the service via shortcuts in Start Menu.
 
-![](../img/shortcuts.png)
+![](img/shortcuts.png)
 
 Five shortcuts created during installation are:
 

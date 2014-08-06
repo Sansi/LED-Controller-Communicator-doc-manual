@@ -20,42 +20,41 @@ Installer 5.6.19} 版本。
 \itemsep1pt\parskip0pt\parsep0pt
 \item
   安装程序启动后是一个欢迎页面，我们选择「Install MySQL Products」。
-  \includegraphics{../img/mysql_1.png}
+  \includegraphics{img/mysql_1.png}
 \item
   此时安装程序会尝试联网获取更新，如无 Internet 连接，可以勾选「Skip the
-  check for updates」后继续。 \includegraphics{../img/mysql_2.png}
+  check for updates」后继续。 \includegraphics{img/mysql_2.png}
 \item
   选择安装类型为「Server only」，并指定数据存放路径。此处我们以
   \texttt{C:\textbackslash{}MySQL\_Data}
-  为例，您可以根据具体情况修改该路径。
-  \includegraphics{../img/mysql_3.png}
+  为例，您可以根据具体情况修改该路径。 \includegraphics{img/mysql_3.png}
 \item
   根据选择的安装项，安装程序检查是否有其他额外的依赖项目需要预先安装。如有，安装程序会下载安装；如无，则可以直接继续。
-  \includegraphics{../img/mysql_4.png}
+  \includegraphics{img/mysql_4.png}
 \item
   下面可以安装 MySQL Server 了。点击「Execute」开始安装。
-  \includegraphics{../img/mysql_5.png}
+  \includegraphics{img/mysql_5.png}
 \item
   安装完成后可以进行初始配置，点击「Next」继续。
-  \includegraphics{../img/mysql_6.png}
+  \includegraphics{img/mysql_6.png}
 \item
   服务器配置类型选择「Server Machine」并继续。
-  \includegraphics{../img/mysql_7.png}
+  \includegraphics{img/mysql_7.png}
 \item
   此处进行用户设置。设置 \texttt{root}
   用户的密码，建议设置复杂密码，并\textbf{请记住此处设置的密码}。单击「Add
   User」新建一个用户作为 StarRiver 的用户。用户名为
   \texttt{sansi}，默认密码为
   \texttt{starriver}。\textbf{如您需要修改默认密码，请记住您设置的新密码，后续的配置需要用到这个密码。}
-  \includegraphics{../img/mysql_8.png}
+  \includegraphics{img/mysql_8.png}
 \item
   MySQL Server 将作为 Windows 服务启动，这里我们接受默认设置即可。
-  \includegraphics{../img/mysql_9.png}
+  \includegraphics{img/mysql_9.png}
 \item
   安装程序配置完成之后，点击「Next」继续。
-  \includegraphics{../img/mysql_10.png}
+  \includegraphics{img/mysql_10.png}
 \item
-  安装完成。 \includegraphics{../img/mysql_11.png}
+  安装完成。 \includegraphics{img/mysql_11.png}
 \end{enumerate}
 
 接下来下载安装 \href{http://dev.mysql.com/downloads/workbench/}{MySQL
@@ -70,37 +69,37 @@ Workbench}，方便我们管理数据库。此处我们采用 MySQL Workbench 6.
 \item
   打开 MySQL Workbench，单击「MySQL
   Connections」右侧的「+」，新建一个服务器连接。
-  \includegraphics{../img/db_init_1.png}
+  \includegraphics{img/db_init_1.png}
 \item
   连接名为「StarRiver」，用户名为 \texttt{sansi}，密码单击「Store in
   Vault \ldots{}」并输入 \texttt{starriver}。
   （如您在配置服务器建立用户时未使用默认密码，请输入您自定义的密码。）
-  \includegraphics{../img/db_init_2.png}
-  \includegraphics{../img/db_init_3.png} 单击「Test
+  \includegraphics{img/db_init_2.png}
+  \includegraphics{img/db_init_3.png} 单击「Test
   Connection」，提示连接成功即可。如果报错则说明此前输入有误，请检查输入的用户名、密码等。
-  \includegraphics{../img/db_init_4.png}
+  \includegraphics{img/db_init_4.png}
 \item
   刚才新建的连接出现在界面上，单击它发起连接。
-  \includegraphics{../img/db_init_5.png}
+  \includegraphics{img/db_init_5.png}
 \item
   选择「File-\textgreater{}Open SQL Script」。
-  \includegraphics{../img/db_init_6.png}
+  \includegraphics{img/db_init_6.png}
 \item
   打开 \texttt{init\_schema.sql}，单击图中框出的按钮执行脚本。
-  \includegraphics{../img/db_init_7.png}
+  \includegraphics{img/db_init_7.png}
 \item
-  执行完毕，没有出错。 \includegraphics{../img/db_init_8.png}
+  执行完毕，没有出错。 \includegraphics{img/db_init_8.png}
 \item
   同样方式打开 \texttt{init\_db.sql}，并执行。
-  \includegraphics{../img/db_init_9.png}
+  \includegraphics{img/db_init_9.png}
 \item
-  检查「Output」，没有出错。 \includegraphics{../img/db_init_10.png}
+  检查「Output」，没有出错。 \includegraphics{img/db_init_10.png}
 \item
   再打开 \texttt{init\_users.sql}，并执行。
-  \includegraphics{../img/db_init_11.png}
+  \includegraphics{img/db_init_11.png}
 \item
   在左侧「Schemas」窗口内单击刷新按钮，看到名为 \texttt{led\_control}
-  的数据库已经被成功建立。 \includegraphics{../img/db_init_12.png}
+  的数据库已经被成功建立。 \includegraphics{img/db_init_12.png}
 \end{enumerate}
 
 对数据库服务器，还需进行一些配置，方法是修改 MySQL 数据存放路径（前文用
@@ -108,7 +107,7 @@ Workbench}，方便我们管理数据库。此处我们采用 MySQL Workbench 6.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{../img/my_ini.png}
+\includegraphics{img/my_ini.png}
 \end{figure}
 
 在 \texttt{{[}mysqld{]}} （图中箭头所示）下增加如下内容：
@@ -133,7 +132,7 @@ skip-character-set-client-handshake
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{../img/setup.png}
+\includegraphics{img/setup.png}
 \end{figure}
 
 如您在数据库配置时，未使用本文档提供的默认密码，您还需更改配置文件，让
@@ -142,7 +141,7 @@ StarRiver 服务器能够顺利连接数据库。配置文件为安装路径下�
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{../img/config.png}
+\includegraphics{img/config.png}
 \end{figure}
 
 您只需将默认密码（图中箭头所示）改为您此前设置的密码即可。
