@@ -5,3 +5,4 @@
 * [Uninstallation](uninstall.md)
 * [Start/Stop Server](start_stop.md)
 * [Server Logging](log.md)
+* [Troubleshooting](troubleshooting.md)

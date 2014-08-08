@@ -5,3 +5,4 @@
 * [卸载服务器](uninstall.md)
 * [启动/停止服务器](start_stop.md)
 * [服务器日志](log.md)
+* [故障解决](troubleshooting.md)

@@ -24,4 +24,4 @@ StarRiver Server and its database dependencies run on the following hardware/sof
     * Windows Server 2008 / Windows 7 or newer
     * MySQL Server 5.6+ (MariaDB 10.0+)
 
-> NOTE: As a Windows service, StarRiver Server can be remotely started/stopped by our client application. This feature is not supported by Windows XP.
+> NOTE: As a Windows service, StarRiver Server can be remotely started / stopped by our client application. This feature is not supported by Windows XP.
