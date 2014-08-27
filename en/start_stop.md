@@ -1,6 +1,6 @@
-# Start/Stop Server
+# Start/Stop StarRiver Service
 
-StarRiver runs in background as a service. You could manually start or stop the service via shortcuts in Start Menu.
+StarRiver Server runs in background as a service. You could manually start or stop the service via shortcuts in Start Menu.
 
 ![](img/shortcuts.png)
 

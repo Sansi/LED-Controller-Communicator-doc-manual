@@ -5,12 +5,12 @@ StarRiver Server and its database dependencies run on the following hardware/sof
 ## Hardware
 
 - Minimum requirements
-    * Dual-core CPU. E.g. Intel Celeron, Pentium.
-    * 4GB RAM
-    * Fast Ethernet (100Mbps)
-- Recommended setup
     * Quad-core CPU. Intel Core i5 or higher.
     * 8GB RAM
+    * Fast Ethernet (100Mbps)
+- Recommended setup
+    * Hexa-core CPU. Intel Xeon E5 or higher.
+    * 32GB ECC RAM
     * Gigabit Ethernet
 
 > NOTE：Wired network is highly recommended. A wireless connection may lead to high latency.

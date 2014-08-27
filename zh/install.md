@@ -1,6 +1,6 @@
-# 安装服务器
+# 安装 StarRiver 服务器
 
-StarRiver 服务器的安装与配置分为两个部分：数据库和 StarRiver 通信程序。
+StarRiver 服务器的安装与配置分为两个部分：数据库和 StarRiver 服务。
 
 ## 安装数据库
 
@@ -80,7 +80,7 @@ skip-character-set-client-handshake
 重启系统后（或重启 MySQL 服务后），新设置生效。
 
 
-## 安装 StarRiver 服务器
+## 安装 StarRiver 服务
 
 运行 `setup.exe` 即可，如需自定义安装路径，请在「目的地文件夹」步骤更改。
 
