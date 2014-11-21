@@ -48,17 +48,15 @@ Finally, create the database structure StarRiver uses.
    ![](img/db_init_5.png)
 4. Select "File->Open SQL Script".
    ![](img/db_init_6.png)
-5. Open `init_schema.sql`. Click the execute button highlighted with a red box below.
+5. Open `init_db.sql`. Click the execute button highlighted with a red box below.
    ![](img/db_init_7.png)
 6. The script finishes execution with no errors.
    ![](img/db_init_8.png)
-7. Execute `init_db.sql` the same way.
+7. Execute `events.sql` the same way.
    ![](img/db_init_9.png)
 8. Check "Output" panel for errors.
    ![](img/db_init_10.png)
-9. Execute `init_users.sql` the same way.
-   ![](img/db_init_11.png)
-10. Click the refresh button in "Schemas" panel. Verify the a database named `led_control` has been setup.
+9. Click the refresh button in "Schemas" panel. Verify the a database named `led_control` has been setup.
    ![](img/db_init_12.png)
 
 Some extra configuration is necessary for the database server by editing `my.ini` in MySQL data path (which is `C:\MySQL_Data` in this example.)

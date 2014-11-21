@@ -48,17 +48,15 @@ StarRiver 采用 MySQL 或兼容 MySQL 的数据库系统（如 MariaDB）。下
    ![](img/db_init_5.png)
 4. 选择「File->Open SQL Script」。
    ![](img/db_init_6.png)
-5. 打开 `init_schema.sql`，单击图中框出的按钮执行脚本。
+5. 打开 `init_db.sql`，单击图中框出的按钮执行脚本。
    ![](img/db_init_7.png)
 6. 执行完毕，没有出错。
    ![](img/db_init_8.png)
-7. 同样方式打开 `init_db.sql`，并执行。
+7. 同样方式打开 `events.sql`，并执行。
    ![](img/db_init_9.png)
 8. 检查「Output」，没有出错。
    ![](img/db_init_10.png)
-9. 再打开 `init_users.sql`，并执行。
-   ![](img/db_init_11.png)
-10. 在左侧「Schemas」窗口内单击刷新按钮，看到名为 `led_control` 的数据库已经被成功建立。
+9. 在左侧「Schemas」窗口内单击刷新按钮，看到名为 `led_control` 的数据库已经被成功建立。
    ![](img/db_init_12.png)
 
 对数据库服务器，还需进行一些配置，方法是修改 MySQL 数据存放路径（前文用 `C:\MySQL_Data` 为例）中的 `my.ini`。
