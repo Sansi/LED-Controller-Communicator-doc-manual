@@ -88,20 +88,17 @@ Finally, create the database structure StarRiver uses.
   Select ``File-\textgreater{}Open SQL Script''.
   \includegraphics{img/db_init_6.png}
 \item
-  Open \texttt{init\_schema.sql}. Click the execute button highlighted
-  with a red box below. \includegraphics{img/db_init_7.png}
+  Open \texttt{init\_db.sql}. Click the execute button highlighted with
+  a red box below. \includegraphics{img/db_init_7.png}
 \item
   The script finishes execution with no errors.
   \includegraphics{img/db_init_8.png}
 \item
-  Execute \texttt{init\_db.sql} the same way.
+  Execute \texttt{events.sql} the same way.
   \includegraphics{img/db_init_9.png}
 \item
   Check ``Output'' panel for errors.
   \includegraphics{img/db_init_10.png}
-\item
-  Execute \texttt{init\_users.sql} the same way.
-  \includegraphics{img/db_init_11.png}
 \item
   Click the refresh button in ``Schemas'' panel. Verify the a database
   named \texttt{led\_control} has been setup.
@@ -115,6 +112,7 @@ Some extra configuration is necessary for the database server by editing
 \begin{figure}[htbp]
 \centering
 \includegraphics{img/my_ini.png}
+\caption{}
 \end{figure}
 
 Add the following lines under \texttt{{[}mysqld{]}} section.
@@ -140,6 +138,7 @@ Run \texttt{setup.exe} and it just works.
 \begin{figure}[htbp]
 \centering
 \includegraphics{img/setup.png}
+\caption{}
 \end{figure}
 
 If you use custom user to connect to the database, you need to edit
@@ -148,6 +147,7 @@ If you use custom user to connect to the database, you need to edit
 \begin{figure}[htbp]
 \centering
 \includegraphics{img/config.png}
+\caption{}
 \end{figure}
 
 Change the values to allow StarRiver to connect to the database
