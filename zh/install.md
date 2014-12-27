@@ -75,6 +75,8 @@ init-connect='SET NAMES utf8'
 skip-character-set-client-handshake
 ```
 
+**注意全部是英文单引号`'`**。
+
 重启系统后（或重启 MySQL 服务后），新设置生效。
 
 
