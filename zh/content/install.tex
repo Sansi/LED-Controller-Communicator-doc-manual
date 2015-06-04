@@ -3,6 +3,14 @@
 
 StarRiver 服务器的安装与配置分为两个部分：数据库和 StarRiver 服务。
 
+\subsection{必要的系统组件}\label{ux5fc5ux8981ux7684ux7cfbux7edfux7ec4ux4ef6}
+
+StarRiver Server 依赖 .Net Framework
+4.0。请在继续安装其他部分前，先安装它， 以避免后续步骤中可能出现的错误。
+
+安装包可以在\href{https://www.microsoft.com/zh-cn/download/details.aspx?id=17718}{微软的网页}上找到。
+StarRiver 安装光盘上提供了一个拷贝。
+
 \subsection{安装数据库}\label{ux5b89ux88c5ux6570ux636eux5e93}
 
 StarRiver 采用 MySQL 或兼容 MySQL 的数据库系统（如 MariaDB）。下面以
@@ -120,6 +128,8 @@ init-connect='SET collation_connection=utf8_unicode_ci'
 init-connect='SET NAMES utf8'
 skip-character-set-client-handshake
 \end{verbatim}
+
+\textbf{注意全部是英文单引号\texttt{\textquotesingle{}}}。
 
 重启系统后（或重启 MySQL 服务后），新设置生效。
 

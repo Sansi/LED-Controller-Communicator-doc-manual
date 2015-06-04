@@ -2,6 +2,12 @@
 
 StarRiver 服务器的安装与配置分为两个部分：数据库和 StarRiver 服务。
 
+## 必要的系统组件
+
+StarRiver Server 依赖 .Net Framework 4.0。请在继续安装其他部分前，先安装它， 以避免后续步骤中可能出现的错误。
+
+安装包可以在[微软的网页](https://www.microsoft.com/zh-cn/download/details.aspx?id=17718)上找到。 StarRiver 安装光盘上提供了一个拷贝。
+
 ## 安装数据库
 
 StarRiver 采用 MySQL 或兼容 MySQL 的数据库系统（如 MariaDB）。下面以 MySQL Server 5.6 为例，介绍数据库的安装。

@@ -2,6 +2,12 @@
 
 StarRiver Server has two modules: database system and StarRiver communication application.
 
+## Prerequisites
+
+StarRiver Server relies on .Net Framework 4.0. Please install the framework at the very beginning to prevent possible issues during installation of other modules.
+
+The installer can be found at [Microsoft's webpage](https://www.microsoft.com/en-US/download/details.aspx?id=17718). A copy is provided in the StarRiver installation disk.
+
 ## Database Installation
 
 StarRiver works with MySQL or its compatible replacements such as MariaDB. The following guide is based on MySQL Server 5.6 as an example.

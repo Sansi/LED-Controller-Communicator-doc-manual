@@ -3,6 +3,16 @@
 StarRiver Server has two modules: database system and StarRiver
 communication application.
 
+\subsection{Prerequisites}\label{prerequisites}
+
+StarRiver Server relies on .Net Framework 4.0. Please install the
+framework at the very beginning to prevent possible issues during
+installation of other modules.
+
+The installer can be found at
+\href{https://www.microsoft.com/en-US/download/details.aspx?id=17718}{Microsoft's
+webpage}. A copy is provided in the StarRiver installation disk.
+
 \subsection{Database Installation}\label{database-installation}
 
 StarRiver works with MySQL or its compatible replacements such as
@@ -126,6 +136,9 @@ init-connect='SET collation_connection=utf8_unicode_ci'
 init-connect='SET NAMES utf8'
 skip-character-set-client-handshake
 \end{verbatim}
+
+\textbf{Note that all quote marks are plain
+\texttt{\textquotesingle{}}.}
 
 The new configuration will take effect after rebooting the system or
 restarting MySQL service.
